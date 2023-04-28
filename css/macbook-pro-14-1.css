@@ -1,5 +1,26 @@
 /* screen - macbook-pro-14-1 */
 
+#lightbox {
+  position:fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+  display: none;
+}
+
+#lightbox.active {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-height: 90%;
+  max-width: 80%;
+}
+
 .macbook-pro-14-1 {
   align-items: flex-start;
   background-color: var(--white);
@@ -277,6 +298,7 @@
   position: absolute;
   top: 8725px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .creative-block-is-a {
@@ -346,11 +368,13 @@
   gap: 36px;
   min-height: 702px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group {
   height: 210px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-2 {
@@ -359,6 +383,7 @@
   position: absolute;
   top: 7284px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-3 {
@@ -367,6 +392,7 @@
   position: absolute;
   top: 7284px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-4 {
@@ -375,6 +401,7 @@
   position: absolute;
   top: 7530px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-5 {
@@ -383,6 +410,7 @@
   position: absolute;
   top: 7284px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-6 {
@@ -391,6 +419,7 @@
   position: absolute;
   top: 7039px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-7 {
@@ -399,6 +428,7 @@
   position: absolute;
   top: 7530px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-8 {
@@ -407,6 +437,7 @@
   position: absolute;
   top: 7038px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-9 {
@@ -415,6 +446,7 @@
   position: absolute;
   top: 7038px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-10 {
@@ -423,6 +455,7 @@
   position: absolute;
   top: 8479px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-11 {
@@ -431,6 +464,7 @@
   position: absolute;
   top: 8479px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-12 {
@@ -439,6 +473,7 @@
   position: absolute;
   top: 8725px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-13 {
@@ -447,6 +482,7 @@
   position: absolute;
   top: 8479px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-14 {
@@ -455,6 +491,7 @@
   position: absolute;
   top: 8725px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-15 {
@@ -463,6 +500,7 @@
   position: absolute;
   top: 8971px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-16 {
@@ -471,6 +509,7 @@
   position: absolute;
   top: 8971px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-17 {
@@ -479,6 +518,7 @@
   position: absolute;
   top: 7530px;
   width: 394px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .results {
@@ -515,6 +555,7 @@
   position: absolute;
   top: 9702px;
   width: 595px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-19 {
@@ -523,6 +564,7 @@
   position: absolute;
   top: 9702px;
   width: 595px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-20 {
@@ -531,6 +573,7 @@
   position: absolute;
   top: 10096px;
   width: 595px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-21 {
@@ -539,6 +582,7 @@
   position: absolute;
   top: 10096px;
   width: 595px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-22 {
@@ -547,6 +591,7 @@
   position: absolute;
   top: 10491px;
   width: 595px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-23 {
@@ -555,6 +600,7 @@
   position: absolute;
   top: 10885px;
   width: 595px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .mask-group-24 {
@@ -563,6 +609,16 @@
   position: absolute;
   top: 10491px;
   width: 595px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-25 {
+  height: 318px;
+  left: 130px;
+  position: absolute;
+  top: 10885px;
+  width: 595px;
+  cursor: pointer;
 }
 
 .macbook-pro-14-1 .whats-next-make-mo {
@@ -575,13 +631,6 @@
   width: 822px;
 }
 
-.macbook-pro-14-1 .mask-group-25 {
-  height: 318px;
-  left: 130px;
-  position: absolute;
-  top: 10885px;
-  width: 595px;
-}
 
 .macbook-pro-14-1 .exploded-deck-mockup-no-shadow-1 {
   height: 798px;
