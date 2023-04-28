@@ -1,0 +1,654 @@
+/* screen - macbook-pro-14-1 */
+
+#lightbox {
+  position:fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+  display: none;
+}
+
+#lightbox.active {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-height: 90%;
+  max-width: 80%;
+}
+
+.macbook-pro-14-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  overflow: hidden;
+  width: 1512px;
+}
+
+.macbook-pro-14-1 .overlap-group {
+  height: 13125px;
+  margin-left: -1px;
+  position: relative;
+  width: 1513px;
+}
+
+.macbook-pro-14-1 .background {
+  background-color: #fefcee;
+  height: 13125px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 1511px;
+}
+
+.macbook-pro-14-1 .rectangle-2 {
+  background-color: #00ffff;
+  left: 0;
+  top: 0;
+}
+
+.macbook-pro-14-1 .rectangle-7 {
+  background-color: var(--black);
+  left: 1px;
+  top: 13010px;
+}
+
+.macbook-pro-14-1 .research-archive {
+  left: 161px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  width: 222px;
+}
+
+.macbook-pro-14-1 .citations-page {
+  left: 484px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  width: 222px;
+}
+
+.macbook-pro-14-1 .progress-platform {
+  left: 807px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  width: 222px;
+}
+
+.macbook-pro-14-1 .mmtl-demo {
+  left: 1130px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  width: 222px;
+}
+
+.macbook-pro-14-1 .name {
+  left: 103px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13056px;
+  width: 222px;
+}
+
+.macbook-pro-14-1 a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.macbook-pro-14-1 .minneapolis-college-of-art-and-design {
+  left: 451px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13056px;
+  width: 265px;
+}
+
+.macbook-pro-14-1 .magwd {
+  left: 842px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13056px;
+  width: 222px;
+}
+
+.macbook-pro-14-1 .spring-2023 {
+  left: 1190px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13056px;
+  width: 222px;
+}
+
+.macbook-pro-14-1 .anxious-about-not-kn {
+  left: 143px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 940px;
+  width: 586px;
+}
+
+.macbook-pro-14-1 .tuck_-box_-mockup_1-1 {
+  height: 675px;
+  left: 78px;
+  object-fit: cover;
+  position: absolute;
+  top: 1453px;
+  width: 678px;
+}
+
+.macbook-pro-14-1 .make-more-think-le {
+  left: 709px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1313px;
+  width: 706px;
+}
+
+.macbook-pro-14-1 .title {
+  left: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5337px;
+  width: 586px;
+}
+
+.macbook-pro-14-1 .after-compiling-a-li {
+  left: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5414px;
+  width: 913px;
+}
+
+.macbook-pro-14-1 .testing {
+  left: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 6607px;
+  width: 586px;
+}
+
+.macbook-pro-14-1 .physical-deck-protot {
+  left: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 6697px;
+  width: 826px;
+}
+
+.macbook-pro-14-1 .this-card-deck-is-de {
+  left: 326px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2331px;
+  width: 862px;
+}
+
+.macbook-pro-14-1 .mm_tl_logo-1 {
+  left: 531px;
+  width: 450px;
+}
+
+.macbook-pro-14-1 .mm_tl_logo-2 {
+  left: 1px;
+  width: 272px;
+}
+
+.macbook-pro-14-1 .mm_tl_logo-3 {
+  left: 1240px;
+  width: 273px;
+}
+
+.macbook-pro-14-1 .layer_2 {
+  align-items: flex-end;
+  background-image: url(../img/vector.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 400px;
+  left: 1037px;
+  padding: 109.4px 63.2px;
+  position: absolute;
+  top: 811px;
+  width: 400px;
+}
+
+.macbook-pro-14-1 .worry-no-more {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 136px;
+  text-align: center;
+  transform: rotate(17.76deg);
+  width: 273px;
+}
+
+.macbook-pro-14-1 .layer_3 {
+  align-items: flex-start;
+  background-image: url(../img/vector-1.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 377px;
+  left: 96px;
+  padding: 115.3px 60.5px;
+  position: absolute;
+  top: 9045px;
+  width: 400px;
+}
+
+.macbook-pro-14-1 .now-with-30-more-failure {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 144px;
+  text-align: center;
+  transform: rotate(-11.51deg);
+  width: 272px;
+}
+
+.macbook-pro-14-1 .span1 {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+}
+
+.macbook-pro-14-1 .card_-deck_-mockup_06-1 {
+  height: 800px;
+  left: 223px;
+  object-fit: cover;
+  position: absolute;
+  top: 2564px;
+  width: 1067px;
+}
+
+.macbook-pro-14-1 .mask-group-1 {
+  height: 210px;
+  left: 560px;
+  position: absolute;
+  top: 8725px;
+  width: 394px;
+}
+
+.macbook-pro-14-1 .creative-block-is-a {
+  left: 288px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3325px;
+  width: 939px;
+}
+
+.macbook-pro-14-1 .collage-is-an-access {
+  left: 288px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4385px;
+  width: 1002px;
+}
+
+.macbook-pro-14-1 .layer_2-1 {
+  align-items: flex-start;
+  background-image: url(../img/vector-2.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 399px;
+  left: 556px;
+  padding: 153px 63px;
+  position: absolute;
+  top: 3787px;
+  width: 400px;
+}
+
+.macbook-pro-14-1 .but-why-collage {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  min-height: 91px;
+  text-align: center;
+  width: 273px;
+}
+
+.macbook-pro-14-1 .card_-deck_-mockup_04-1 {
+  height: 646px;
+  left: 740px;
+  object-fit: cover;
+  position: absolute;
+  top: 4692px;
+  width: 732px;
+}
+
+.macbook-pro-14-1 .group-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 38px;
+  height: 702px;
+  left: 128px;
+  min-width: 1258px;
+  position: absolute;
+  top: 5727px;
+}
+
+.macbook-pro-14-1 .mask-group-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  min-height: 702px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group {
+  height: 210px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-2 {
+  height: 210px;
+  left: 128px;
+  position: absolute;
+  top: 7284px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-3 {
+  height: 210px;
+  left: 560px;
+  position: absolute;
+  top: 7284px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-4 {
+  height: 210px;
+  left: 560px;
+  position: absolute;
+  top: 7530px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-5 {
+  height: 210px;
+  left: 992px;
+  position: absolute;
+  top: 7284px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-6 {
+  height: 210px;
+  left: 992px;
+  position: absolute;
+  top: 7039px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-7 {
+  height: 210px;
+  left: 992px;
+  position: absolute;
+  top: 7530px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-8 {
+  height: 210px;
+  left: 128px;
+  position: absolute;
+  top: 7038px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-9 {
+  height: 210px;
+  left: 560px;
+  position: absolute;
+  top: 7038px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-10 {
+  height: 210px;
+  left: 992px;
+  position: absolute;
+  top: 8479px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-11 {
+  height: 210px;
+  left: 128px;
+  position: absolute;
+  top: 8479px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-12 {
+  height: 210px;
+  left: 128px;
+  position: absolute;
+  top: 8725px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-13 {
+  height: 210px;
+  left: 560px;
+  position: absolute;
+  top: 8479px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-14 {
+  height: 210px;
+  left: 992px;
+  position: absolute;
+  top: 8725px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-15 {
+  height: 210px;
+  left: 992px;
+  position: absolute;
+  top: 8971px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-16 {
+  height: 210px;
+  left: 560px;
+  position: absolute;
+  top: 8971px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-17 {
+  height: 210px;
+  left: 128px;
+  position: absolute;
+  top: 7530px;
+  width: 394px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .results {
+  left: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7929px;
+  width: 586px;
+}
+
+.macbook-pro-14-1 .majority-of-users-ad {
+  left: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8023px;
+  width: 833px;
+}
+
+.macbook-pro-14-1 .deliverables {
+  left: 800px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 9506px;
+  width: 586px;
+}
+
+.macbook-pro-14-1 .mask-group-18 {
+  height: 317px;
+  left: 130px;
+  position: absolute;
+  top: 9702px;
+  width: 595px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-19 {
+  height: 317px;
+  left: 791px;
+  position: absolute;
+  top: 9702px;
+  width: 595px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-20 {
+  height: 317px;
+  left: 130px;
+  position: absolute;
+  top: 10096px;
+  width: 595px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-21 {
+  height: 317px;
+  left: 791px;
+  position: absolute;
+  top: 10096px;
+  width: 595px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-22 {
+  height: 317px;
+  left: 130px;
+  position: absolute;
+  top: 10491px;
+  width: 595px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-23 {
+  height: 318px;
+  left: 791px;
+  position: absolute;
+  top: 10885px;
+  width: 595px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-24 {
+  height: 317px;
+  left: 791px;
+  position: absolute;
+  top: 10491px;
+  width: 595px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .mask-group-25 {
+  height: 318px;
+  left: 130px;
+  position: absolute;
+  top: 10885px;
+  width: 595px;
+  cursor: pointer;
+}
+
+.macbook-pro-14-1 .whats-next-make-mo {
+  left: 346px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11418px;
+  width: 822px;
+}
+
+
+.macbook-pro-14-1 .exploded-deck-mockup-no-shadow-1 {
+  height: 798px;
+  left: 214px;
+  object-fit: cover;
+  position: absolute;
+  top: 12027px;
+  width: 1056px;
+}
+
+.macbook-pro-14-1 .mm_tl_logo {
+  height: 445px;
+  object-fit: cover;
+  position: absolute;
+  top: 236px;
+}
+
+.macbook-pro-14-1 .rectangle {
+  height: 115px;
+  position: absolute;
+  width: 1512px;
+}
